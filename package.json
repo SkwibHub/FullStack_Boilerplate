@@ -1,0 +1,53 @@
+{
+  "name": "fullstack_boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate as suggested by FullStack",
+  "main": "./client/main.js",
+  "scripts": {
+    "start": "node ./server/server",
+    "start-dev": "webpack -w & nodemon ./server/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkwibHub/FullStack_Boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkwibHub/FullStack_Boilerplate/issues"
+  },
+  "homepage": "https://github.com/SkwibHub/FullStack_Boilerplate#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9",
+    "passport": "^0.4.0",
+    "pg": "^7.7.1",
+    "pg-hstore": "^2.3.2",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "sequelize": "^4.42.0",
+    "volleyball": "^1.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.1.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2"
+  }
+}
